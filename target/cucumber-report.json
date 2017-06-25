@@ -1,0 +1,248 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "before": [
+          {
+            "result": {
+              "duration": 4745022900,
+              "status": "passed"
+            },
+            "match": {
+              "location": "StepDefinitions.launchBrowser()"
+            }
+          }
+        ],
+        "line": 13,
+        "name": "Successful Login with Valid Credentials",
+        "description": "",
+        "id": "login;successful-login-with-valid-credentials;;2",
+        "after": [
+          {
+            "result": {
+              "duration": 1157157600,
+              "status": "passed"
+            },
+            "match": {
+              "location": "StepDefinitions.closeBrowser()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 2172125099,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "User is on \"Home\" Page",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Home",
+                  "offset": 12
+                }
+              ],
+              "location": "StepDefinitions.user_is_on_Page(String)"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 5392101099,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "User logs in using username as \"tutorial\" and password as \"tutorial\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "tutorial",
+                  "offset": 32
+                },
+                {
+                  "val": "tutorial",
+                  "offset": 59
+                }
+              ],
+              "location": "StepDefinitions.user_logs_in_using_username_as_and_password_as(String,String)"
+            },
+            "matchedColumns": [
+              0,
+              1
+            ],
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 78230000,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "login should be successful",
+            "match": {
+              "location": "StepDefinitions.login_should_be_successful()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 2274828599,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "User presses Sign Out button",
+            "match": {
+              "location": "StepDefinitions.user_presses_Sign_Out_button()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 68232801,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "logout should be successful",
+            "match": {
+              "location": "StepDefinitions.logout_should_be_successful()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "line": 3,
+            "name": "@regression"
+          }
+        ]
+      },
+      {
+        "before": [
+          {
+            "result": {
+              "duration": 2776618599,
+              "status": "passed"
+            },
+            "match": {
+              "location": "StepDefinitions.launchBrowser()"
+            }
+          }
+        ],
+        "line": 14,
+        "name": "Successful Login with Valid Credentials",
+        "description": "",
+        "id": "login;successful-login-with-valid-credentials;;3",
+        "after": [
+          {
+            "result": {
+              "duration": 1111307100,
+              "status": "passed"
+            },
+            "match": {
+              "location": "StepDefinitions.closeBrowser()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 1396727601,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "User is on \"Home\" Page",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Home",
+                  "offset": 12
+                }
+              ],
+              "location": "StepDefinitions.user_is_on_Page(String)"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 2842687101,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "User logs in using username as \"leanft\" and password as \"leanft\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "leanft",
+                  "offset": 32
+                },
+                {
+                  "val": "leanft",
+                  "offset": 57
+                }
+              ],
+              "location": "StepDefinitions.user_logs_in_using_username_as_and_password_as(String,String)"
+            },
+            "matchedColumns": [
+              0,
+              1
+            ],
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 61391100,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "login should be successful",
+            "match": {
+              "location": "StepDefinitions.login_should_be_successful()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 1755398499,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "User presses Sign Out button",
+            "match": {
+              "location": "StepDefinitions.user_presses_Sign_Out_button()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 57984500,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "logout should be successful",
+            "match": {
+              "location": "StepDefinitions.logout_should_be_successful()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "line": 3,
+            "name": "@regression"
+          }
+        ]
+      }
+    ],
+    "name": "Login",
+    "description": "",
+    "id": "login",
+    "keyword": "Feature",
+    "uri": "Login.feature"
+  }
+]
