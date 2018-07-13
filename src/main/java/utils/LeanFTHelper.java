@@ -12,8 +12,11 @@ import com.hp.lft.sdk.SDKConfigurationFactory;
 import com.hp.lft.sdk.web.Browser;
 import com.hp.lft.sdk.web.BrowserFactory;
 import com.hp.lft.sdk.web.BrowserType;
+import org.apache.log4j.Logger;
 
 public class LeanFTHelper {
+
+	final static Logger logger = Logger.getLogger(LeanFTHelper.class);
 	
 	public static void initializeSDK() throws Exception
 	{
@@ -22,7 +25,7 @@ public class LeanFTHelper {
 	    SDK.init(config);		   
 	    Reporter.init();
 	    
-	    LogHelper.logger.info("SDK Initialized");
+	    logger.info("SDK Initialized");
 	}
 	
 	public static Browser launchBrowser() throws GeneralLeanFtException, IOException
@@ -50,7 +53,7 @@ public class LeanFTHelper {
 	    }
 		
 	    browser = BrowserFactory.launch(bType);
-	    LogHelper.logger.info("Browser Launched");
+	    logger.info("Browser Launched");
 		
 		return browser;
 	}

@@ -79,7 +79,7 @@ formatter.examples({
   "keyword": "Examples"
 });
 formatter.before({
-  "duration": 4745022900,
+  "duration": 1327321805,
   "status": "passed"
 });
 formatter.scenario({
@@ -135,7 +135,7 @@ formatter.match({
   "location": "StepDefinitions.user_is_on_Page(String)"
 });
 formatter.result({
-  "duration": 2172125099,
+  "duration": 2220939089,
   "status": "passed"
 });
 formatter.match({
@@ -152,36 +152,36 @@ formatter.match({
   "location": "StepDefinitions.user_logs_in_using_username_as_and_password_as(String,String)"
 });
 formatter.result({
-  "duration": 5392101099,
+  "duration": 4414838466,
   "status": "passed"
 });
 formatter.match({
   "location": "StepDefinitions.login_should_be_successful()"
 });
 formatter.result({
-  "duration": 78230000,
+  "duration": 14350092,
   "status": "passed"
 });
 formatter.match({
   "location": "StepDefinitions.user_presses_Sign_Out_button()"
 });
 formatter.result({
-  "duration": 2274828599,
+  "duration": 2818874518,
   "status": "passed"
 });
 formatter.match({
   "location": "StepDefinitions.logout_should_be_successful()"
 });
 formatter.result({
-  "duration": 68232801,
+  "duration": 14635007,
   "status": "passed"
 });
 formatter.after({
-  "duration": 1157157600,
+  "duration": 1558196225,
   "status": "passed"
 });
 formatter.before({
-  "duration": 2776618599,
+  "duration": 215661827,
   "status": "passed"
 });
 formatter.scenario({
@@ -237,7 +237,7 @@ formatter.match({
   "location": "StepDefinitions.user_is_on_Page(String)"
 });
 formatter.result({
-  "duration": 1396727601,
+  "duration": 1494366947,
   "status": "passed"
 });
 formatter.match({
@@ -254,32 +254,32 @@ formatter.match({
   "location": "StepDefinitions.user_logs_in_using_username_as_and_password_as(String,String)"
 });
 formatter.result({
-  "duration": 2842687101,
+  "duration": 4872342504,
   "status": "passed"
 });
 formatter.match({
   "location": "StepDefinitions.login_should_be_successful()"
 });
 formatter.result({
-  "duration": 61391100,
+  "duration": 14472803,
   "status": "passed"
 });
 formatter.match({
   "location": "StepDefinitions.user_presses_Sign_Out_button()"
 });
 formatter.result({
-  "duration": 1755398499,
+  "duration": 1350364958,
   "status": "passed"
 });
 formatter.match({
   "location": "StepDefinitions.logout_should_be_successful()"
 });
 formatter.result({
-  "duration": 57984500,
+  "duration": 18315621,
   "status": "passed"
 });
 formatter.after({
-  "duration": 1111307100,
+  "duration": 1537100220,
   "status": "passed"
 });
 });

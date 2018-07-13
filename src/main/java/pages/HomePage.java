@@ -27,9 +27,11 @@ import com.hp.lft.sdk.web.WebElement;
 import com.hp.lft.sdk.web.XPathDescription;
 
 public class HomePage extends BasePage {
+
+	final static Logger logger = Logger.getLogger(FlightDetails.class);
 		
-	public HomePage(Browser browser, Logger logger) {
-		super(browser, logger);		
+	public HomePage(Browser browser) {
+		super(browser);
 	}
 
 	//Sign On Link

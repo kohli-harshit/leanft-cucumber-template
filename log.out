@@ -1,21 +1,21 @@
-SDK Initialized
-Browser Launched
-Home Page Found = true
-Entering Credentials
-Logged in found = true
-Logged in = true
-Logged in found = true
-Logged in found = true
-Sign Off Clicked
-Logged out = true
-Logged out = true
-Browser Launched
-Home Page Found = true
-Entering Credentials
-Logged in found = true
-Logged in = true
-Logged in found = true
-Logged in found = true
-Sign Off Clicked
-Logged out = true
-Logged out = true
+2018-07-13 21:47:22 INFO  LeanFTHelper:28 - SDK Initialized
+2018-07-13 21:47:23 INFO  LeanFTHelper:56 - Browser Launched
+2018-07-13 21:47:25 DEBUG FlightDetails:69 - Home Page Found = true
+2018-07-13 21:47:25 DEBUG FlightDetails:135 - Entering Credentials
+2018-07-13 21:47:29 DEBUG FlightDetails:152 - Logged in found = true
+2018-07-13 21:47:29 DEBUG FlightDetails:141 - Logged in = true
+2018-07-13 21:47:29 DEBUG FlightDetails:152 - Logged in found = true
+2018-07-13 21:47:29 DEBUG FlightDetails:152 - Logged in found = true
+2018-07-13 21:47:29 DEBUG FlightDetails:164 - Sign Off Clicked
+2018-07-13 21:47:32 DEBUG FlightDetails:175 - Logged out = true
+2018-07-13 21:47:32 DEBUG FlightDetails:175 - Logged out = true
+2018-07-13 21:47:34 INFO  LeanFTHelper:56 - Browser Launched
+2018-07-13 21:47:35 DEBUG FlightDetails:69 - Home Page Found = true
+2018-07-13 21:47:35 DEBUG FlightDetails:135 - Entering Credentials
+2018-07-13 21:47:40 DEBUG FlightDetails:152 - Logged in found = true
+2018-07-13 21:47:40 DEBUG FlightDetails:141 - Logged in = true
+2018-07-13 21:47:40 DEBUG FlightDetails:152 - Logged in found = true
+2018-07-13 21:47:40 DEBUG FlightDetails:152 - Logged in found = true
+2018-07-13 21:47:40 DEBUG FlightDetails:164 - Sign Off Clicked
+2018-07-13 21:47:42 DEBUG FlightDetails:175 - Logged out = true
+2018-07-13 21:47:42 DEBUG FlightDetails:175 - Logged out = true
